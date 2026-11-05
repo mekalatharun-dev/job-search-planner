@@ -5,8 +5,6 @@ A daily planner for a 30-day search for a paid IT internship or entry-level role
 - **Plan days:** 6 Nov – 5 Dec 2026 (30 days)
 - **Offer deadline:** 6 Dec 2026
 
-This folder is a standalone app. It does not change the GreenMind project in the rest of this repository.
-
 ## What it does
 
 - 30-day calendar grouped into weeks, with today highlighted
@@ -28,7 +26,8 @@ This folder is a standalone app. It does not change the GreenMind project in the
 You need Node.js 20 or newer (`node -v` to check). In the VS Code terminal:
 
 ```bash
-cd job-tracker
+git clone https://github.com/mekalatharun-dev/job-search-planner.git
+cd job-search-planner
 npm install
 npm run dev
 ```
